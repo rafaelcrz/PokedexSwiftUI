@@ -12,6 +12,10 @@ extension Color {
         self.init(hex: type.rawValue)
     }
     
+    init(background: BackgroundType) {
+        self.init(hex: background.rawValue)
+    }
+    
     init(hex: String) {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int: UInt64 = 0

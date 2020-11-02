@@ -9,7 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Badge(type: .bug)
+        List {
+            PokeCard()
+                .frame(maxWidth: .infinity, maxHeight: 115)
+            PokeCard()
+                .frame(maxWidth: .infinity, maxHeight: 115)
+            PokeCard()
+                .frame(maxWidth: .infinity, maxHeight: 115)
+            PokeCard()
+                .frame(maxWidth: .infinity, maxHeight: 115)
+            PokeCard()
+                .frame(maxWidth: .infinity, maxHeight: 115)
+            PokeCard()
+                .frame(maxWidth: .infinity, maxHeight: 115)
+            PokeCard()
+                .frame(maxWidth: .infinity, maxHeight: 115)
+            PokeCard()
+                .frame(maxWidth: .infinity, maxHeight: 115)
+            PokeCard()
+                .frame(maxWidth: .infinity, maxHeight: 115)
+            PokeCard()
+                .frame(maxWidth: .infinity, maxHeight: 115)
+        }
     }
 }
 

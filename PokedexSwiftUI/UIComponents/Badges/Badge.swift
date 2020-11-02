@@ -22,9 +22,12 @@ struct Badge: View {
         HStack {
             Image(type.rawValue)
                 .renderingMode(.template)
+                .resizable()
+                .frame(width: 15, height: 15)
                 .foregroundColor(.white)
-                .font(.title)
             Text(type.title)
+                .font(.system(size: 12))
+                .fontWeight(.bold)
                 .foregroundColor(.white)
         }
         .padding(5)

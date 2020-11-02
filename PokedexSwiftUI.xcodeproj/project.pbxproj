@@ -18,6 +18,7 @@
 		ACC30FBA254F9BCA005DD674 /* BackgroundType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC30FB9254F9BCA005DD674 /* BackgroundType.swift */; };
 		ACC30FCC25504F36005DD674 /* PokemonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC30FCB25504F36005DD674 /* PokemonType.swift */; };
 		ACC30FD72550580D005DD674 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC30FD62550580D005DD674 /* ColorType.swift */; };
+		ACC30FEE25505A33005DD674 /* PokeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC30FED25505A33005DD674 /* PokeCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		ACC30FB9254F9BCA005DD674 /* BackgroundType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundType.swift; sourceTree = "<group>"; };
 		ACC30FCB25504F36005DD674 /* PokemonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonType.swift; sourceTree = "<group>"; };
 		ACC30FD62550580D005DD674 /* ColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
+		ACC30FED25505A33005DD674 /* PokeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		ACC30FA1254F9313005DD674 /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				ACC30FF525505A48005DD674 /* PokeCard */,
 				ACC30FA2254F9327005DD674 /* Badges */,
 			);
 			path = UIComponents;
@@ -183,6 +186,14 @@
 				ACC30FCB25504F36005DD674 /* PokemonType.swift */,
 			);
 			path = Commom;
+			sourceTree = "<group>";
+		};
+		ACC30FF525505A48005DD674 /* PokeCard */ = {
+			isa = PBXGroup;
+			children = (
+				ACC30FED25505A33005DD674 /* PokeCard.swift */,
+			);
+			path = PokeCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +327,7 @@
 			files = (
 				ACC30FBA254F9BCA005DD674 /* BackgroundType.swift in Sources */,
 				ACC30FD72550580D005DD674 /* ColorType.swift in Sources */,
+				ACC30FEE25505A33005DD674 /* PokeCard.swift in Sources */,
 				ACC30F5F254F84B8005DD674 /* ContentView.swift in Sources */,
 				ACC30FCC25504F36005DD674 /* PokemonType.swift in Sources */,
 				ACC30F5D254F84B8005DD674 /* PokedexSwiftUIApp.swift in Sources */,
