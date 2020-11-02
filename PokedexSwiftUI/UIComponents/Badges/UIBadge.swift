@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct UIBadge: View {
-    private var type: BadgeType
+    private var type: PokemonType
     
-    init(type: BadgeType) {
+    private var background: Color {
+        return Color(hex: ColorType(type: self.type).rawValue)
+    }
+    
+    init(type: PokemonType) {
         self.type = type
     }
     
@@ -24,7 +28,7 @@ struct UIBadge: View {
                 .foregroundColor(.white)
         }
         .padding(5)
-        .background(type.background)
+        .background(background)
         .cornerRadius(8)
     }
 }

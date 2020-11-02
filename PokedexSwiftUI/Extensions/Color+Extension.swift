@@ -8,8 +8,8 @@
 import SwiftUI
 
 extension Color {
-    init(asset: ColorType) {
-        self = asset.color
+    init(type: ColorType) {
+        self.init(hex: type.rawValue)
     }
     
     init(hex: String) {
