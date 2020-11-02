@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        UIBadge(type: .bug)
+        Badge(type: .bug)
     }
 }
 

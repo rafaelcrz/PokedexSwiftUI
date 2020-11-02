@@ -1,5 +1,5 @@
 //
-//  UIBadge.swift
+//  Badge.swift
 //  PokedexSwiftUI
 //
 //  Created by rafael ramos on 01/11/20.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct UIBadge: View {
+struct Badge: View {
     private var type: PokemonType
     
     private var background: Color {
@@ -33,13 +33,13 @@ struct UIBadge: View {
     }
 }
 
-struct UIBadge_Previews: PreviewProvider {
+struct Badge_Previews: PreviewProvider {
     static var previews: some View {
         List {
-            UIBadge(type: .bug)
-            UIBadge(type: .dark)
-            UIBadge(type: .electric)
-            UIBadge(type: .normal)
+            Badge(type: .bug)
+            Badge(type: .dark)
+            Badge(type: .electric)
+            Badge(type: .normal)
         }
     }
 }
