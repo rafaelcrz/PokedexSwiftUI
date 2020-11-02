@@ -15,8 +15,9 @@
 		ACC30F7A254F84BD005DD674 /* PokedexSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC30F79254F84BD005DD674 /* PokedexSwiftUIUITests.swift */; };
 		ACC30FA4254F933E005DD674 /* UIBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC30FA3254F933E005DD674 /* UIBadge.swift */; };
 		ACC30FAD254F96BE005DD674 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC30FAC254F96BE005DD674 /* Color+Extension.swift */; };
-		ACC30FB5254F9B41005DD674 /* BadgeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC30FB4254F9B41005DD674 /* BadgeType.swift */; };
-		ACC30FBA254F9BCA005DD674 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC30FB9254F9BCA005DD674 /* Asset.swift */; };
+		ACC30FBA254F9BCA005DD674 /* BackgroundType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC30FB9254F9BCA005DD674 /* BackgroundType.swift */; };
+		ACC30FCC25504F36005DD674 /* PokemonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC30FCB25504F36005DD674 /* PokemonType.swift */; };
+		ACC30FD72550580D005DD674 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC30FD62550580D005DD674 /* ColorType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,8 +52,9 @@
 		ACC30F7B254F84BD005DD674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACC30FA3254F933E005DD674 /* UIBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBadge.swift; sourceTree = "<group>"; };
 		ACC30FAC254F96BE005DD674 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
-		ACC30FB4254F9B41005DD674 /* BadgeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeType.swift; sourceTree = "<group>"; };
-		ACC30FB9254F9BCA005DD674 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		ACC30FB9254F9BCA005DD674 /* BackgroundType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundType.swift; sourceTree = "<group>"; };
+		ACC30FCB25504F36005DD674 /* PokemonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonType.swift; sourceTree = "<group>"; };
+		ACC30FD62550580D005DD674 /* ColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		ACC30F5B254F84B8005DD674 /* PokedexSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				ACC30FDE2550585E005DD674 /* Commom */,
 				ACC30FBE254F9FEB005DD674 /* Assets */,
 				ACC30FAB254F96A6005DD674 /* Extensions */,
 				ACC30FA1254F9313005DD674 /* UIComponents */,
@@ -153,7 +156,6 @@
 			isa = PBXGroup;
 			children = (
 				ACC30FA3254F933E005DD674 /* UIBadge.swift */,
-				ACC30FB4254F9B41005DD674 /* BadgeType.swift */,
 			);
 			path = Badges;
 			sourceTree = "<group>";
@@ -169,9 +171,18 @@
 		ACC30FBE254F9FEB005DD674 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				ACC30FB9254F9BCA005DD674 /* Asset.swift */,
+				ACC30FB9254F9BCA005DD674 /* BackgroundType.swift */,
+				ACC30FD62550580D005DD674 /* ColorType.swift */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		ACC30FDE2550585E005DD674 /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				ACC30FCB25504F36005DD674 /* PokemonType.swift */,
+			);
+			path = Commom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,10 +314,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACC30FBA254F9BCA005DD674 /* Asset.swift in Sources */,
+				ACC30FBA254F9BCA005DD674 /* BackgroundType.swift in Sources */,
+				ACC30FD72550580D005DD674 /* ColorType.swift in Sources */,
 				ACC30F5F254F84B8005DD674 /* ContentView.swift in Sources */,
+				ACC30FCC25504F36005DD674 /* PokemonType.swift in Sources */,
 				ACC30F5D254F84B8005DD674 /* PokedexSwiftUIApp.swift in Sources */,
-				ACC30FB5254F9B41005DD674 /* BadgeType.swift in Sources */,
 				ACC30FA4254F933E005DD674 /* UIBadge.swift in Sources */,
 				ACC30FAD254F96BE005DD674 /* Color+Extension.swift in Sources */,
 			);
